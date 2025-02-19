@@ -1,14 +1,14 @@
 # How to Translate the documentation
 
-Below a general guide to help you translate the documentation into another language.
+The list below shows the steps you need to follow to translate the documentation into another language.
 
 - [Create an account on GitHub](#create-an-account-on-github): Sign up for a GitHub account if you don't already have one. This account will allow you to access repositories, fork them, and make changes.
-- [Fork the Repository](#fork-the-repository): Create a personal copy of the repository on your GitHub account. This way, you can make changes without affecting the original repository.
+- [Fork the Repository](#fork-the-repository): Create a personal copy of the repository on your GitHub account. This way, you can make changes without affecting the original repository (i.e. all the changes you made will be done in your copy).
 - [Make the Translation](#make-the-translation): This involves the actual process of translating the documentation. It includes two sub-steps:
-    - [Edit the files](#edit-the-files): Open the files you need to translate and make the necessary changes.
+    - [Edit the files](#edit-the-files): Open the markdown (.md) files you need to translate and make the necessary changes. We already provide a copy of the English version here so that you need to overwrite the text without changing the markup.
     - [Upload the screenshots](#upload-the-screenshots): If the documentation includes images or screenshots, upload translated versions of these as well.
-- [Pull request](#pull-request): Submit your changes to the original repository. The repository owner can review your changes and decide whether to merge them into the main project.
-- [Syncing a fork](#syncing-a-fork): Keep your forked repository up-to-date with the original repository. This ensures that you have the latest changes from the original project.
+- [Pull request](#pull-request): Submit your changes to the original repository. The repository owner can review your changes and decide whether to merge them into the main documentation.
+- [Syncing a fork](#syncing-a-fork): This is needed to keep your forked repository up-to-date with the original repository. This ensures that you have the latest changes from the original project. This is not needed in the first translation but rather before catching up with updates made in the original translation
 
 
 ## Create an account on GitHub
@@ -21,9 +21,11 @@ During sign up, you'll be asked to verify your email address. Without a verified
 
 ## Fork the Repository
 
+A fork in GitHub is a copy of a repository that you can make changes to without affecting the original repository. 
+
 Log in to your GitHub account if you haven't already and locate the repository you want to use. For example [https://github.com/ICD-Docs/browser](https://github.com/ICD-Docs/browser) for translating the **ICD-11 Browser User Guide**      
 
-Click on the "**Fork**" button in the top right corner. A fork in GitHub is a copy of a repository that you can make changes to without affecting the original repository. 
+Click on the "**Fork**" button in the top right corner. 
 
 ![fork 1](img/fork-1.png "fork 1")
 
@@ -132,11 +134,15 @@ After you complete the pull request, GitHub will redirect you to the original re
 **Note**: Your translation will be reviewed manually before being integrated into the documentation.
 
 
-## Syncing a fork  
+## Keeping translations up to date
+
+After all these steps are completed and your translations are placed in the actual documentation, there may be updates made to the English version. In such cases you need to perform a **Sync fork** before updating your translations. You need to this only before incorporating changes made in the English version. So you don't need to do this after the initial translation
+
+### Syncing a fork  
 
 As explained above, when you fork a repository on GitHub, you create a copy of it in your own GitHub account. Over time, the original repository might get new updates or changes that you want to incorporate into your fork (for example, a new paragraph(s) in the documentation). 
 
-**Sync Fork** is the process of updating your repository to include these changes, keeping it up to date with the original repository.
+**Sync Fork** is the process of updating your repository to include these changes, keeping it up to date with the original repository. 
 
 To sync your fork on GitHub:
 
