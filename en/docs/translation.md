@@ -8,7 +8,7 @@ The list below shows the steps you need to follow to translate the documentation
     - [Edit the files](#edit-the-files): Open the markdown (.md) files you need to translate and make the necessary changes. We already provide a copy of the English version here so that you need to overwrite the text without changing the markup.
     - [Upload the screenshots](#upload-the-screenshots): If the documentation includes images or screenshots, upload translated versions of these as well.
 - [Pull request](#pull-request): Submit your changes to the original repository. The repository owner can review your changes and decide whether to merge them into the main documentation.
-- [Syncing a fork](#syncing-a-fork): This is needed to keep your forked repository up-to-date with the original repository. This ensures that you have the latest changes from the original project. This is not needed in the first translation but rather before catching up with updates made in the original translation
+- [Keeping translations up to date](#keeping-translations-up-to-date): This is needed to keep your forked repository up-to-date with the original repository. This ensures that you have the latest changes from the original project. This is not needed in the first translation but rather before catching up with updates made in the original translation
 
 
 ## Create an account on GitHub
